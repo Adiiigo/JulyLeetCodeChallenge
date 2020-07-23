@@ -47,7 +47,7 @@ it will be the XOR of two unique numbers
 Suppose the array is 1,1,2,2,3,5
 XOR will be 3 ^ 5 = 6 (011 ^ 101) = (110)
 
--> Set bits are those bits whic are different for both the numbers.
+-> Set bits are those bits which are different for both the numbers.
 Lets choose one bit from this result - > preferably the rightmost set bit
 So if we consider all the numbers in array we can classify the numbers in two categories
 1.  Group with the set bit at the chosen position
@@ -76,6 +76,8 @@ to find the setBit let it be 001 initially
 6^setBit = (110 ^ 010) = 010 => we got the setBit
 
 -> now separating into the two groups and return and answer
+
+
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
