@@ -39,7 +39,8 @@ public:
         
     }
 };
-
+Time Complexity - O(logn)
+  
 //Approach 2: //using maths
 
 class Solution {
@@ -50,3 +51,4 @@ public:
         return num%9 ;
     }
 };
+Time Complexity - O(1)
